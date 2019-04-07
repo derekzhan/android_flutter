@@ -19,17 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         button = findViewById(R.id.button);
-
-        /*View flutterView = Flutter.createView(
-                MainActivity.this,
-                getLifecycle(),
-                "route1"
-        );
-        FrameLayout.LayoutParams layout = new FrameLayout.LayoutParams(600, 800);
-        layout.leftMargin = 100;
-        layout.topMargin = 200;
-        addContentView(flutterView, layout);*/
-
+        
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
